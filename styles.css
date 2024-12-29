@@ -40,6 +40,6 @@ div.container form a{
 	text-decoration:underline;
 	color:#1877f2;
 }
-button.signup{
-	background-color:42b72a;
+div.container button.signup{
+	background-color:#42b72a;
 }
