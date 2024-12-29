@@ -6,14 +6,18 @@ body{
 	align-items: center;
 	height: 100vh
 }
-div.container img{
-	width:300px;
-	height: auto;
+.container{
+	display:flex;
+	gap:20px
 }
-div.container:nth-of-type(1){
+.left{
 	width: 450px;
 	margin-top:70px;
 	display: inline-block;
+}
+.left img{
+	display: block;
+	max-width: 100%
 }
 div.container form{
 	display:flex;
